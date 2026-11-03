@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>【公式】DERIDOS Group VIP member 特別ご優待のご案内</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#080d16',
+              surface: '#0e1726',
+              card: '#131e30',
+              cardLight: '#1b2a42',
+              border: '#22344f',
+              gold: '#c5a059',
+              goldLight: '#e6c875',
+              goldDark: '#99731e'
+            }
+          },
+          fontFamily: {
+            sans: ['"Inter"', '"Noto Sans JP"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            serif: ['"Cinzel"', '"Shippori Mincho"', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #080d16;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(197, 160, 89, 0.08) 0px, transparent 45%),
+        radial-gradient(at 100% 100%, rgba(26, 44, 76, 0.22) 0px, transparent 50%);
+      color: #e2e8f0;
+      -webkit-font-smoothing: antialiased;
+    }
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #fef1bf 0%, #c5a059 50%, #99731e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .border-gold-glow {
+      border: 1px solid rgba(197, 160, 89, 0.45);
+      box-shadow: 0 4px 25px rgba(197, 160, 89, 0.12);
+    }
+    @keyframes pulseGlow {
+      0%, 100% {
+        box-shadow: 0 4px 20px rgba(197, 160, 89, 0.3);
+      }
+      50% {
+        box-shadow: 0 4px 32px rgba(197, 160, 89, 0.65);
+      }
+    }
+    .btn-gold-pulse {
+      animation: pulseGlow 2.8s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="font-sans min-h-screen flex flex-col justify-between pb-28">
+
+  <!-- ヘッダー -->
+  <header class="w-full border-b border-brand-border py-3 px-4 backdrop-blur-md bg-brand-dark/85 sticky top-0 z-40">
+    <div class="max-w-md mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <svg class="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        </svg>
+        <span class="text-xs tracking-wider text-slate-200 font-bold uppercase">DERIDOS Group VIP member</span>
+      </div>
+      <span class="text-[10px] bg-brand-gold/15 text-brand-goldLight border border-brand-gold/40 px-2.5 py-0.5 rounded-full font-bold">
+        当グループ利用者様限定
+      </span>
+    </div>
+  </header>
+
+  <main class="max-w-md mx-auto w-full px-4 pt-5 pb-8 space-y-6">
+
+    <!-- ファーストビュータイトル（ご予約ありがとうございますを廃止し、スマートな特別ご優待設計へ刷新） -->
+    <section class="text-center space-y-2">
+      <p class="text-[11px] text-brand-gold tracking-widest uppercase font-bold flex items-center justify-center gap-1.5">
+        <span class="inline-block w-6 h-px bg-brand-gold/60"></span>
+        DERIDOS Group VIP Invitation
+        <span class="inline-block w-6 h-px bg-brand-gold/60"></span>
+      </p>
+      <h1 class="text-2xl font-bold text-white tracking-tight leading-snug">
+        当グループ利用者様限定<br>
+        <span class="text-gold-gradient text-xl">事前登録で4大VIP特典プレゼント</span>
+      </h1>
+      <p class="text-[11px] text-slate-400 leading-relaxed px-2">
+        ご来店・ご利用前のわずか30秒の登録で、本日のお値引きから誕生日クーポン・限定イベントまで豪華な特典が全てアンロックされます。
+      </p>
+    </section>
+
+    <!-- 特典メインバナーカード -->
+    <section class="bg-gradient-to-b from-brand-card to-brand-surface border-gold-glow rounded-2xl p-5 relative overflow-hidden">
+      <!-- 右上リボン -->
+      <div class="absolute -right-12 top-6 bg-gradient-to-r from-brand-goldDark to-brand-gold text-brand-dark text-[9px] font-black py-1 px-12 rotate-45 shadow-md">
+        本日即適用
+      </div>
+
+      <div class="text-center space-y-2">
+        <span class="inline-block bg-brand-gold/15 text-brand-gold text-[11px] font-bold px-3 py-1 rounded-full border border-brand-gold/30">
+          当グループ利用者様限定特典
+        </span>
+        <div class="pt-1">
+          <p class="text-xs text-slate-400">事前登録で受け取れる初回総額メリット</p>
+          <div class="text-3xl font-black text-white tracking-tight mt-1 flex items-center justify-center gap-1">
+            <span class="text-slate-300 text-base">総額</span>
+            <span class="text-gold-gradient text-4xl font-extrabold tracking-tighter">5,000</span>
+            <span class="text-brand-gold text-xl font-bold">円分</span>
+            <span class="text-xs text-slate-300 font-normal">お得 ＋ 優待</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2大即時特典バナー -->
+      <div class="grid grid-cols-2 gap-2.5 mt-4">
+        <!-- 特典 1 -->
+        <div class="bg-brand-cardLight/80 border border-brand-border rounded-xl p-3 text-center flex flex-col justify-between">
+          <div>
+            <span class="text-[9px] uppercase font-bold text-brand-gold block mb-0.5">Benefit 01</span>
+            <span class="text-xs font-semibold text-slate-200 block">本日のお会計から</span>
+          </div>
+          <div class="my-1.5">
+            <span class="text-2xl font-black text-white">2,000</span>
+            <span class="text-xs font-bold text-brand-gold">円OFF</span>
+          </div>
+          <span class="text-[10px] text-emerald-400 bg-emerald-950/60 border border-emerald-800/40 py-0.5 rounded font-medium">
+            本日から即利用OK
+          </span>
+        </div>
+
+        <!-- 特典 2 -->
+        <div class="bg-brand-cardLight/80 border border-brand-border rounded-xl p-3 text-center flex flex-col justify-between">
+          <div>
+            <span class="text-[9px] uppercase font-bold text-brand-gold block mb-0.5">Benefit 02</span>
+            <span class="text-xs font-semibold text-slate-200 block">次回使える</span>
+          </div>
+          <div class="my-1.5">
+            <span class="text-2xl font-black text-white">3,000</span>
+            <span class="text-xs font-bold text-brand-gold">pt付与</span>
+          </div>
+          <span class="text-[10px] text-amber-300 bg-amber-950/60 border border-amber-800/40 py-0.5 rounded font-medium">
+            3,000円分相当
+          </span>
+        </div>
+      </div>
+
+      <!-- メインCTAボタン（登録して特典を受け取るに統一） -->
+      <div class="mt-5">
+        <a href="https://pleasant-group.mp-system.info/guest/register.php" 
+           class="btn-gold-pulse w-full flex items-center justify-center gap-2 bg-gradient-to-r from-brand-goldDark via-brand-gold to-brand-goldLight text-brand-dark font-black text-base py-3.5 px-4 rounded-xl shadow-lg hover:brightness-110 active:scale-[0.98] transition transform duration-150">
+          <span>登録して特典を受け取る（約30秒）</span>
+          <svg class="w-5 h-5 text-brand-dark" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+          </svg>
+        </a>
+        <div class="flex items-center justify-center gap-3 mt-2.5 text-[11px] text-slate-400">
+          <span class="flex items-center gap-1">
+            <svg class="w-3.5 h-3.5 text-brand-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+            </svg>
+            所要時間：約30秒
+          </span>
+          <span>•</span>
+          <span>携帯電話番号認証のみ</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 会員限定の充実した4大特典一覧 -->
+    <section class="space-y-3 pt-1">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="w-1.5 h-4 bg-brand-gold rounded-full"></div>
+          <h2 class="text-sm font-bold text-white tracking-wide">登録で受け取れる4大VIP特典</h2>
+        </div>
+        <span class="text-[10px] text-brand-gold font-semibold">入会費・年会費 0円</span>
+      </div>
+
+      <div class="grid grid-cols-1 gap-3">
+        
+        <!-- 特典 1 -->
+        <div class="bg-brand-card/90 border border-brand-border rounded-xl p-3.5 flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-brand-cardLight border border-brand-gold/30 flex items-center justify-center text-brand-gold font-black text-sm flex-shrink-0">
+            01
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs font-bold text-white">本日のお会計 2,000円OFF</h3>
+              <span class="text-[9px] bg-emerald-950 text-emerald-400 border border-emerald-800/50 px-1.5 py-0.5 rounded">即時利用</span>
+            </div>
+            <p class="text-[11px] text-slate-400 mt-1 leading-relaxed">
+              ご予約当日の会計時にそのままご利用いただけます。事前登録を済ませておくだけで即座にお得になります。
+            </p>
+          </div>
+        </div>
+
+        <!-- 特典 2 -->
+        <div class="bg-brand-card/90 border border-brand-border rounded-xl p-3.5 flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-brand-cardLight border border-brand-gold/30 flex items-center justify-center text-brand-gold font-black text-sm flex-shrink-0">
+            02
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs font-bold text-white">次回使える 3,000pt 付与</h3>
+              <span class="text-[9px] bg-amber-950 text-amber-300 border border-amber-800/50 px-1.5 py-0.5 rounded">3,000円分</span>
+            </div>
+            <p class="text-[11px] text-slate-400 mt-1 leading-relaxed">
+              次回以降のご利用時に「1pt＝1円」としてコース料金・オプション等のお値引きに自由にご活用いただけます。
+            </p>
+          </div>
+        </div>
+
+        <!-- 特典 3（誕生日クーポン & SMS注意書き） -->
+        <div class="bg-gradient-to-r from-brand-card via-brand-card to-brand-cardLight border border-brand-gold/40 rounded-xl p-3.5 flex items-start gap-3.5 relative overflow-hidden">
+          <div class="w-10 h-10 rounded-xl bg-brand-gold/20 border border-brand-gold flex items-center justify-center text-brand-gold flex-shrink-0">
+            <!-- ギフトアイコン -->
+            <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V6a2 2 0 10-2 2h2zm0 0H4a2 2 0 00-2 2v2a2 2 0 002 2h16a2 2 0 002-2v-2a2 2 0 00-2-2h-8z"/>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-1.5">
+              <h3 class="text-xs font-bold text-brand-goldLight">誕生日月 特別クーポンお届け</h3>
+              <span class="text-[9px] bg-brand-gold text-brand-dark px-1.5 py-0.2 rounded font-extrabold">限定優待</span>
+            </div>
+            <p class="text-[11px] text-slate-300 mt-1 leading-relaxed">
+              会員登録後、マイページでお誕生日をご登録いただくと、誕生月限定で何度でも使える<span class="text-brand-goldLight font-bold">プレミアム優待クーポン</span>を自動発行いたします。
+            </p>
+            <div class="mt-2 text-[10px] bg-brand-dark/80 text-amber-300/90 border border-amber-500/30 rounded p-1.5 flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 text-brand-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+              </svg>
+              <span>※クーポン受け取りには<strong>「SMS通知の許可」</strong>が必要です</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 特典 4（ゲリライベント & SMS注意書き） -->
+        <div class="bg-gradient-to-r from-brand-card via-brand-card to-brand-cardLight border border-brand-gold/40 rounded-xl p-3.5 flex items-start gap-3.5 relative overflow-hidden">
+          <div class="w-10 h-10 rounded-xl bg-brand-gold/20 border border-brand-gold flex items-center justify-center text-brand-gold flex-shrink-0">
+            <!-- ベル/イベントアイコン -->
+            <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-1.5">
+              <h3 class="text-xs font-bold text-brand-goldLight">会員限定ゲリライベント開催</h3>
+              <span class="text-[9px] bg-brand-gold text-brand-dark px-1.5 py-0.2 rounded font-extrabold">シークレット</span>
+            </div>
+            <p class="text-[11px] text-slate-300 mt-1 leading-relaxed">
+              一般には告知されない<span class="text-brand-goldLight font-bold">突発シークレットイベントや割引キャンペーン</span>の先行案内、会員様限定の特別プランをSMSにて随時お届けいたします。
+            </p>
+            <div class="mt-2 text-[10px] bg-brand-dark/80 text-amber-300/90 border border-amber-500/30 rounded p-1.5 flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 text-brand-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+              </svg>
+              <span>※シークレット案内は<strong>「SMS通知の許可」</strong>をいただいた会員様のみ配信</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 重要：SMS受け取り許可についてのアナウンスカード -->
+    <section class="bg-gradient-to-r from-amber-950/40 via-brand-card to-amber-950/30 border border-amber-500/50 rounded-xl p-4 space-y-2">
+      <div class="flex items-center gap-2 text-brand-goldLight">
+        <svg class="w-4 h-4 text-brand-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-xs font-bold text-white">【重要】限定特典を受け取るための確認</span>
+      </div>
+      <p class="text-[11px] text-slate-300 leading-relaxed">
+        お誕生日クーポンやシークレットゲリライベントは<strong>SMS（ショートメッセージ）</strong>にて直接お届けします。
+      </p>
+      <div class="bg-brand-dark/90 rounded-lg p-3 border border-brand-border space-y-1.5">
+        <div class="flex items-center gap-2 text-xs text-brand-gold font-bold">
+          <span class="inline-block w-4 h-4 rounded bg-brand-gold text-brand-dark text-[10px] text-center font-black">✓</span>
+          「SMS通知/受け取りを許可する」をチェック
+        </div>
+        <p class="text-[10px] text-slate-400 leading-normal">
+          登録画面または登録後のマイページにて、通知受け取りの許可がONになっていることをご確認ください（通知拒否のままだと限定クーポンが届きません）。
+        </p>
+      </div>
+    </section>
+
+    <!-- 登録手順（3ステップ） -->
+    <section class="space-y-3 pt-1">
+      <div class="flex items-center gap-2">
+        <div class="w-1.5 h-4 bg-brand-gold rounded-full"></div>
+        <h2 class="text-sm font-bold text-white tracking-wide">かんたん登録手順（3ステップ）</h2>
+      </div>
+
+      <div class="bg-brand-card/90 border border-brand-border rounded-xl p-4 space-y-4">
+        <!-- Step 1 -->
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-full bg-brand-gold/20 border border-brand-gold/60 text-brand-gold font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+            01
+          </div>
+          <div class="flex-1">
+            <p class="text-xs font-bold text-slate-100">下記の「登録して特典を受け取る」ボタンをタップ</p>
+            <p class="text-[11px] text-slate-400 mt-0.5">登録ボタンをタップし、携帯電話番号を入力してSMS認証コードを発行します。</p>
+          </div>
+        </div>
+
+        <div class="w-px h-3 bg-brand-border ml-3.5"></div>
+
+        <!-- Step 2 -->
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-full bg-brand-gold/20 border border-brand-gold/60 text-brand-gold font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+            02
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-1.5">
+              <p class="text-xs font-bold text-slate-100">携帯番号入力・SMS認証 ＆ 通知受け取りを許可</p>
+              <span class="text-[9px] bg-brand-gold text-brand-dark px-1 rounded font-bold">重要</span>
+            </div>
+            <p class="text-[11px] text-slate-400 mt-0.5">
+              SMSで届いた認証番号を入力し、<span class="text-brand-gold font-medium">「SMS受け取りを許可」</span>にチェックを入れて完了します。
+            </p>
+          </div>
+        </div>
+
+        <div class="w-px h-3 bg-brand-border ml-3.5"></div>
+
+        <!-- Step 3 -->
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-full bg-brand-gold/20 border border-brand-gold/60 text-brand-gold font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+            03
+          </div>
+          <div class="flex-1">
+            <p class="text-xs font-bold text-slate-100">ご利用時に登録完了画面または番号をスタッフへ提示</p>
+            <p class="text-[11px] text-slate-400 mt-0.5">本日のご利用金額から【2,000円割引】が即時適用され、3,000ptが付与されます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3つの安心ポイント -->
+    <section class="space-y-3 pt-1">
+      <div class="flex items-center gap-2">
+        <div class="w-1.5 h-4 bg-brand-gold rounded-full"></div>
+        <h2 class="text-sm font-bold text-white tracking-wide">安心してご利用いただくために</h2>
+      </div>
+
+      <div class="grid grid-cols-1 gap-2.5">
+        <div class="flex items-center gap-3 bg-brand-card/60 border border-brand-border/70 rounded-lg p-3">
+          <div class="w-8 h-8 rounded-lg bg-brand-cardLight flex items-center justify-center text-brand-gold flex-shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xs font-bold text-slate-200">本名・ご住所の入力不要</h3>
+            <p class="text-[11px] text-slate-400">SMS番号認証のみ。プライベートな個人情報は一切必要ありません。</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-brand-card/60 border border-brand-border/70 rounded-lg p-3">
+          <div class="w-8 h-8 rounded-lg bg-brand-cardLight flex items-center justify-center text-brand-gold flex-shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xs font-bold text-slate-200">入会金・年会費は完全無料</h3>
+            <p class="text-[11px] text-slate-400">登録費用や月額費などのコストは永久に0円です。</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-brand-card/60 border border-brand-border/70 rounded-lg p-3">
+          <div class="w-8 h-8 rounded-lg bg-brand-cardLight flex items-center justify-center text-brand-gold flex-shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xs font-bold text-slate-200">迷惑な営業電話なし</h3>
+            <p class="text-[11px] text-slate-400">不要なお電話勧誘を行うことは一切ありません。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- よくある質問（FAQ） -->
+    <section class="space-y-3 pt-1">
+      <div class="flex items-center gap-2">
+        <div class="w-1.5 h-4 bg-brand-gold rounded-full"></div>
+        <h2 class="text-sm font-bold text-white tracking-wide">よくあるご質問</h2>
+      </div>
+
+      <div class="bg-brand-card/90 border border-brand-border rounded-xl divide-y divide-brand-border/60">
+        <div class="p-3.5 space-y-1">
+          <p class="text-xs font-bold text-brand-goldLight flex items-center gap-1.5">
+            <span class="text-brand-gold font-serif">Q.</span> 本日のご利用に2,000円OFFは本当にすぐ使えますか？
+          </p>
+          <p class="text-[11px] text-slate-300 pl-4">
+            はい、ご利用いただけます。事前登録完了後、ご案内時にスタッフまたはドライバーへ「事前会員登録済み」とお伝えいただくだけで、本日の会計から2,000円値引きいたします。
+          </p>
+        </div>
+        <div class="p-3.5 space-y-1">
+          <p class="text-xs font-bold text-brand-goldLight flex items-center gap-1.5">
+            <span class="text-brand-gold font-serif">Q.</span> SMSの通知受け取り設定はどこで変更できますか？
+          </p>
+          <p class="text-[11px] text-slate-300 pl-4">
+            登録時の画面、またはログイン後の「会員マイページ」内の通知設定よりいつでも変更可能です。お得な限定クーポンをお見逃しなく受け取るため、ON（許可）の設定を推奨しております。
+          </p>
+        </div>
+        <div class="p-3.5 space-y-1">
+          <p class="text-xs font-bold text-brand-goldLight flex items-center gap-1.5">
+            <span class="text-brand-gold font-serif">Q.</span> 誕生日クーポンはどのように受け取れますか？
+          </p>
+          <p class="text-[11px] text-slate-300 pl-4">
+            登録完了後のマイページにてお誕生日をご設定いただき、かつSMS通知を許可していただいているお客様へ、誕生月の1日に特別クーポンがSMSにて配信されます。
+          </p>
+        </div>
+        <div class="p-3.5 space-y-1">
+          <p class="text-xs font-bold text-brand-goldLight flex items-center gap-1.5">
+            <span class="text-brand-gold font-serif">Q.</span> 付与された3,000ptはいつから使えますか？
+          </p>
+          <p class="text-[11px] text-slate-300 pl-4">
+            次回以降のご利用時に「1ポイント＝1円」としてコース料金・オプション等のお値引きにご利用いただけます。
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター表記 -->
+  <footer class="w-full border-t border-brand-border py-6 px-4 text-center text-slate-500 text-[10px] space-y-2">
+    <p>※本優待は当グループをご利用いただいたお客様限定の特典プログラムとなります。</p>
+    <p>※18歳未満の方のご利用・ご登録は固くお断りいたします。</p>
+    <p class="text-slate-600 tracking-wide">© DERIDOS Group VIP member. All Rights Reserved.</p>
+  </footer>
+
+  <!-- スマホ下部固定CTAバー（登録して特典を受け取るに変更） -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-brand-dark/95 backdrop-blur-lg border-t border-brand-border/80 shadow-2xl">
+    <div class="max-w-md mx-auto flex items-center gap-3">
+      <div class="flex-1 pl-1">
+        <div class="text-[10px] text-brand-gold font-bold leading-tight">当グループ利用者様限定</div>
+        <div class="text-xs font-black text-white leading-tight mt-0.5">本日2,000円引 ＋ 3,000pt ＋ 誕生月特典</div>
+      </div>
+      <a href="https://pleasant-group.mp-system.info/guest/register.php" 
+         class="flex-shrink-0 bg-gradient-to-r from-brand-goldDark to-brand-gold text-brand-dark font-black text-xs py-3 px-4 rounded-lg shadow-md hover:brightness-110 active:scale-95 transition">
+        登録して特典を受け取る
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
